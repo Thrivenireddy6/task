@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS user(Ticket_id int NOT NULL AUTO_INCREMENT,Customer_name varchar(255),Movie_title varchar(255),Movie_time varchar(255),Ticket_price int,Creation_date DATETIME TIMESTAMP, PRIMARY KEY (Ticket_id))
